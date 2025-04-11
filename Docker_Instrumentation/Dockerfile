@@ -3,7 +3,7 @@ FROM tiangolo/uwsgi-nginx:python3.12
 
 RUN pip install prometheus_client
 
-ENV LISTEN_PORT 5001 
+ENV LISTEN_PORT=5001 
 
 EXPOSE 5001
 

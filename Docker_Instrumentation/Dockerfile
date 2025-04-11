@@ -7,6 +7,6 @@ ENV LISTEN_PORT 5001
 
 EXPOSE 5001
 
-copy ./app /app
+COPY ./app /app
 
 WORKDIR /app
